@@ -1,4 +1,5 @@
 // 정렬한 후에 greedy 기법으로 푼다
+// toTypedArray 유의
 class Solution {
     fun merge(intervals: Array<IntArray>): Array<IntArray> {
         intervals.sortBy { it[0] }
