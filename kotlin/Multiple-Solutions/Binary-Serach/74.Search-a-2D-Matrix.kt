@@ -1,3 +1,4 @@
+// 1 차원 배열이라고 생각하고 쭉 푸는 걸 시도해보자.
 class Solution {
     fun searchMatrix(matrix: Array<IntArray>, target: Int): Boolean {
         var left = 0
