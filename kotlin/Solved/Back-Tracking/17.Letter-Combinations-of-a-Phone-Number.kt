@@ -1,3 +1,4 @@
+// substring(1)인 경우 index 1~last
 class Solution {
     fun letterCombinations(digits: String): List<String> {
         if (digits.isEmpty()) return listOf<String>()
