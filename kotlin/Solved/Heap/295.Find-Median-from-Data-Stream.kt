@@ -1,3 +1,4 @@
+// priority queue에 넣고 나서 rebalancing해야 한다.
 class MedianFinder() {
     val larger = PriorityQueue<Int>() { a, b -> a.compareTo(b) }
     val smaller = PriorityQueue<Int>() { a, b -> b.compareTo(a) }
