@@ -7,6 +7,7 @@
  *     var next: ListNode? = null
  * }
  */
+
 // merge sort도 있을 것 같으나 pq로 해결함
 class Solution {
     fun mergeKLists(lists: Array<ListNode?>): ListNode? {
