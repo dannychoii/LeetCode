@@ -1,3 +1,4 @@
+// right 는 for loop, left 는 while 혹은 for loop 으로 작성하는게 구현상 좋다
 class Solution {
     fun checkInclusion(s1: String, s2: String): Boolean {
         val map = mutableMapOf<Char, Int>()
